@@ -25,8 +25,7 @@
 	min-height: 100vh;
 }
 .body__portrait {
-	transition: 0.5s ease-in;
-	/* border: 5px solid #D66627; */
+	transition: 0.4s ease-in;
 	border-radius: 50px;
 }
 .body__portrait:hover {
@@ -35,6 +34,7 @@
 .body__title {
 	font-size: 40px;
 	text-align: center;
+	color: #D66627;
 }
 .body__line {
 	max-width: 536px;
@@ -55,14 +55,17 @@
 	border-radius: 30px;
 	padding: 10px 30px;
 	text-decoration: none;
+	border: 1px solid transparent;
 }
 .body__link:hover {
-	background: #f95b00;
 	color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	left: 2px;
 }
 .body__link:active {
 	position: relative;
 	top: 2px;
 	background: #D66627;
 	color: #FFFFFF;
+	border-color: #fff;
 }

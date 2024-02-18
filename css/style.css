@@ -28,8 +28,10 @@
 	transition: 0.4s ease-in;
 	border-radius: 50px;
 }
+@media (any-hover: hover) {
 .body__portrait:hover {
 	transform: scale(2);
+}
 }
 .body__title {
 	font-size: 40px;
